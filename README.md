@@ -36,19 +36,14 @@ It helps teams save time by turning spoken discussions into clear summaries, dec
 
 4. **Evaluation Metrics:**  
    - **WER (Word Error Rate)** — transcription accuracy  
-   - **ROUGE-L** — summary overlap and quality  
-
+   
 ---
 
 ### 📊 Evaluation Metrics
-| Type of Meeting | Description | WER ↓ | ROUGE-L ↑ |
+| Type of Meeting | Description | WER ↓ | 
 |------------------|--------------|-------|------------|
-| Podcast-like (single speaker, clear audio) | Minimal noise and consistent tone | **3.6%** | **0.4%** |
-| Two-person conversational (with background hindrance) | Dialogue with overlapping speech and mild interference | **3%** | **0.5%** |
-
-#### 🧭 Contradiction Explanation
-The **two-person meeting** showed a higher **WER** (due to overlapping speech and noise) but only a slightly higher **ROUGE-L** score.  
-This occurs because **WER measures literal transcription accuracy**, while **ROUGE-L focuses on textual overlap** — so even if the transcription is imperfect, the summarizer can still capture the main meaning effectively, resulting in a small change in ROUGE scores.
+| Podcast-like (single speaker, clear audio) | Minimal noise and consistent tone | **3.6%** |
+| Two-person conversational (with background hindrance) | Dialogue with overlapping speech and mild interference | **3%** |
 
 ---
 
