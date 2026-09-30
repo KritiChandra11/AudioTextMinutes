@@ -39,14 +39,6 @@ It helps teams save time by turning spoken discussions into clear summaries, dec
    
 ---
 
-### 📊 Evaluation Metrics
-| Type of Meeting | Description | WER ↓ | 
-|------------------|--------------|-------|------------|
-| Podcast-like (single speaker, clear audio) | Minimal noise and consistent tone | **3.6%** |
-| Two-person conversational (with background hindrance) | Dialogue with overlapping speech and mild interference | **3%** |
-
----
-
 ### 🧪 Technical Stack
 - **Backend:** Python (Flask)  
 - **Frontend:** HTML, CSS (under `/templates` and `/static`)  
